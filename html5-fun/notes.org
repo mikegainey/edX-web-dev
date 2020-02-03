@@ -1,0 +1,67 @@
+* Course Tools
+
+- JS Bin (https://jsbin.com/)
+  An open source collaborative Web development debugging tool.
+
+- CodePen (https://codepen.io/)
+  CodePen is an HTML, CSS, and JavaScript code editor that previews/showcases your code bits in your browser.
+ 
+** W3C Developers tools http://w3c.github.io/developers/tools/
+ 
+- W3C Validator https://validator.w3.org/
+  The W3C validator checks the markup validity of various Web document formats, such as HTML.
+
+- CSS Validator https://jigsaw.w3.org/css-validator/
+  The CSS validator checks Cascading Style Sheets (CSS) and (X)HTML documents that use CSS stylesheets.
+
+- Unicorn http://validator.w3.org/unicorn/
+  Unicorn is W3C's unified validator, which helps people improve the quality of their Web pages by performing a variety of checks. Unicorn gathers the results of the popular HTML and CSS validators, as well as other useful services, such as Internationalization, RSS/Atom feeds and http headers.
+
+- Internationalization Checker https://validator.w3.org/i18n-checker/
+  The W3C Internationalization Checker provides information about various internationalization-related aspects of your page, including the HTTP headers that affect it. It will also report a number of  issues and offer advice about how to resolve them.
+
+- Link Checker http://validator.w3.org/checklink
+  The W3C Link Checker looks for issues in links, anchors and referenced objects in a Web page, CSS style sheet, or recursively on a whole Web site. For best results, it is recommended to first ensure that the documents checked use valid (X)HTML Markup and CSS.
+  
+- The W3C cheatsheet http://www.w3.org/2009/cheatsheet/
+  The W3C cheatsheet provides quick access to useful information from a variety of specifications published by W3C.
+
+- Named character references available in HTML: https://dev.w3.org/html5/html-author/charref
+
+* Module 1: My first web page
+
+  Elements - the content
+  Tags - around the elements
+  Attributes - given inside the opening tag; basically assigns values to variables
+  
+  Comments: <!-- This is a comment -->
+  
+  <!DOCTYPE html> - the first thing in any HTML file; no closing tag
+  
+  <html> </html> - encloses all the HTML in a file
+
+  Nearly every HTML document has two parts: 
+  - <head> </head>   The 'head' comes before the 'body'. It is where you put information about the document that does not really go in the body, AKA 'meta-' information.
+  - <body> </body>   The 'body' is the main content of the page, containing text, images, tables and so on. 
+
+** HTML Character references -- to display characters reserved for HTML: <, >, &, "
+
+   All HTML character references can be written using either a name, decimal number, or hex number.
+   Examples: &nbsp; &#160; &#x00A0 (& name or number ;)
+
+   The five special characters listed in the table below should always be written as character references if you want them to appear on your page when viewed by a reader:
+  
+| Symbol             | Entity Name | Entity Number | Usage                |
+|--------------------+-------------+---------------+----------------------|
+| Less than '<'      | &lt;        | &#60;         | Div tag: &lt;div>    |
+| Greater than '>'   | &gt;        | &#62;         | Div tag: &lt;div&gt; |
+| Ampersand '&'      | &amp;       | &#38;         | Tom &amp; Jerry      |
+| Non-breaking space | &nbsp;      | &#160;        |                      |
+| Quotes "           | &quot;      | &#34;         |                      |
+
+
+if you wish to display this in your browser: <img src="images/test.png" alt="test image">
+You have to write it like this in your HTML code:
+&lt;img src=&quot;images/test.png&quot; alt=&quot;test image&quot;&gt;
+
+Named character references available in HTML: https://dev.w3.org/html5/html-author/charref
